@@ -31,16 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install zine
-        run: |
-          sudo apt update
-          sudo apt install xz-utils wget
-          wget https://github.com/kristoff-it/zine/releases/download/v0.11.1/x86_64-linux-musl.tar.xz
-          tar xf x86_64-linux-musl.tar.xz
-          rm x86_64-linux-musl.tar.xz
-          chmod +x zine
+      - name: Setup Zine
+        uses: kristoff-it/setup-zine@46308d08c1c1316d1927adcc3eaaba8037f10c1e #v1
+        with:
+          version: v0.11.1
       - name: Build
-        run: ./zine release
+        run: zine release
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
