@@ -4,7 +4,7 @@ Site {
     .content_dir_path = "content",
     .layouts_dir_path = "layouts",
     .assets_dir_path = "assets",
-    .url_path_prefix = "public",
+    .url_path_prefix = "damien",
     .static_assets = [
         "Temml.woff2",
     ],
