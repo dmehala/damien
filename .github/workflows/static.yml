@@ -36,8 +36,8 @@ jobs:
           sudo apt update
           sudo apt install xz-utils wget
           wget https://github.com/kristoff-it/zine/releases/download/v0.11.1/x86_64-linux-musl.tar.xz
-          tar xf aarch64-linux-musl.tar.xz
-          rm aarch64-linux-musl.tar.xz
+          tar xf x86_64-linux-musl.tar.xz
+          rm x86_64-linux-musl.tar.xz
           chmod +x zine
       - name: Build
         run: ./zine release
