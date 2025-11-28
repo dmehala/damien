@@ -18,7 +18,7 @@
     <nav>
       <a href="$site.page('').link()">Home</a>
        &nbsp; • &nbsp;
-      <a href="$site.page('about').link()">About</a>
+      <a href="$site.page('resume').link()">Resume</a>
        &nbsp; • &nbsp;
       <a href="$site.page('blog').link()">Blog</a>
       <ctx :if="$site.page('devlog').subpages().first?()">
@@ -27,10 +27,5 @@
       </ctx>
     </nav>
     <super>
-    <footer>
-      <hr>
-      <h5>SITE UNDER CONSTRUCTION</h5>
-      <img src="$site.asset('under-construction.gif').link()" width=90>
-    </footer>
   </body>
 </html>

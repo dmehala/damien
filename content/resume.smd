@@ -1,0 +1,56 @@
+---
+.title = "Resume",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Damien Mehala",
+.layout = "index.shtml",
+.draft = false,
+--- 
+### Datadog (2023 - Now)
+I joined Datadog as an Open Source Library Engineer, specializing in null pointer dereferencing.
+
+- Maintainer of the C++ tracer and its integrations.
+- Increased RUM adoption by x% through auto-instrumention in webservers. did everything.
+- Mentoring junior software engineers.
+
+### Lumen Technologies (2021 - 2023)
+I was part of a small department at Lumen Technologies (NYSE:LUMN) based in Paris, using Edge Computing to efficiently deliver video stream and 100 GB+ files even in the worst condition, thanks to our solutions: Mesh Delivery for Streaming and Mesh Delivery for Download.
+
+Mesh Delivery for Streaming:
+ - Contributed to the migration of our software from Javascript to C++ 14, which increased startup time by 45% while drastically decreasing memory footprint.
+ - Wrote initial iOS/tvOS/Android sample apps for Mesh Delivery using the C++ SDK (https://github.com/streamroot/integration-samples)
+ - Improve our testing framework for simulating certain network and device conditions to create more complex scenarios.
+
+Tech: C++14, Boost Beast, Google Test, Python 3.
+
+Mesh Delivery for Download:
+ - Industrialized the proof of concept following an actor-based model with a strong emphasis on maintainability, observability, testing and documentation.
+ - Contributed to the design and implemented the public API of our library.
+ - Contributed to the technical documentation.
+ - Automation of the entire CI/CD pipeline using GitHub Actions, Python, and AWS CLI.
+ - Enhanced code observability using Sentry and OpenTelemetry.
+ - Design and built a significant part of our End-to-End testing pipeline using Cucumber Studio and Gherkin parser.
+ - Design and implemented in C#/.NET the showcase application used by sales and marketing department.
+ - Mentor junior software engineers.
+ - Led technical interviews and contributed to fit interviews.
+ - Planned the 2024 roadmap.
+
+Tech: C++14, ZeroMQ, Boost Beast, libcurl, Google Test, MessagePack, Python 3, Sentry, OpenTelemetry.
+
+### Murex (2018 - 2021)
+Murex is a world leader in software development for trading, treasury, risk management and post-trade operations for financial markets.
+
+Within the Front Office Position Management team, our goal is to deliver a clear and consistent view of all positions managed by MX.3
+
+- Reduced technical debt by refactoring the communication layer (data format and serialization) between the client and the warehouse server, which also led to ~10% performance improvement.
+- Build a set of tools (Position Health Kit), to self-diagnose, report and repair data model issues during intraday. The end goal is to deliver a more robust and satisfying experience.
+- Increase resiliency of the Position Service service.
+
+### Neoxam (2017- 2018)
+Neoxam is a financial technology company that provides core software for financial institutions.
+I worked as a Python software engineer at the Investment Accounting Business Unit on Neoxam GP (v3 and v4)
+
+- Implemented a transpiler written in Python 3+ for our Domain-Specific Language (DSL) to reduce memory footprint, compilation time and leverage modern software development practices.
+- Assist a team of 20+ functional developers to beta test new features and development tools.
+- Reduced technical debt and improve code quality for our DSL by developing frameworks for unit testing, code coverage, profiling, and static analysis tools.
+- Design of a Language Server Protocol and its integration into modern IDE: Microsoft Visual Studio Code, IntelliJ, and Eclipse.
+- Management of the software factory: Immutable Infrastructure, artifact management, deployment.
